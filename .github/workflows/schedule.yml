@@ -10,6 +10,6 @@ jobs:
       - name: Update gist
         uses: joshghent/rescue-box@master
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GIST_ID: ${{ secrets.GIST_ID }}
-          RESCUETIME_API_KEY: ${{ secrets.RESCUETIME_API_KEY }}
+          GH_TOKEN: ${{ secrets.GIST_GH_TOKEN }}
+          GIST_ID: ${{ secrets.RESCUETIME_GIST_ID }}
+          RESCUETIME_API_KEY: ${{ secrets.RESCUETIME_API_TOKEN }}
